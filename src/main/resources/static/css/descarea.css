@@ -1,0 +1,55 @@
+.mark-desc-time{
+    width: 140px;
+}
+.mark-desc-content{
+    min-width: 150px;
+    min-height: 30px;
+    width: 55%;
+    overflow: hidden;
+    /*border-left: 1px solid rgba(0, 0, 0, 0.3);*/
+    padding-left: 10px;
+}
+.mark-desc-time, .mark-desc-content{
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.mark-desc-content div{
+    outline: none;
+    padding: 2px auto;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+.mark-desc-content div:focus{
+    background: rgba(0, 0, 0, 0.1)
+}
+.mark-desc-time,
+.mark-desc-head .mark-desc-content{
+    text-align: center;
+}
+
+.mark-desc-head, .mark-desc-row{
+    height: 30px;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#mark-desc-table{
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    min-width: 350px;
+    width: 50%;
+    height: 520px;
+}
+
+#mark-desc-wrap{
+    height: 489px;
+    overflow: auto;
+}
+
+.mark-desc-row.selected{
+    height: fit-content;
+    background: rgba(0, 0, 0, 0.1);
+}
