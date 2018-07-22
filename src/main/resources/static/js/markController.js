@@ -64,32 +64,12 @@ $(function () {
         // var ma = {
         //     'imgid': 'a',
         //     'marks': {
-        //         'markMethods': ['rectMark'],
+        //         'markMethods': ['rectMark','polyMark'],
         //         'rectMark': [
-        //             {
-        //                 'info': {
-        //                     'top': 50,
-        //                     'left': 50,
-        //                     'width': 20,
-        //                     'height': 100,
-        //                 },
-        //                 'description': {
-        //                     'time': '2018/6/13 19:00',
-        //                     'content': 'table',
-        //                 },
-        //             },
-        //             {
-        //                 'info': {
-        //                     'top': 25,
-        //                     'left': 25,
-        //                     'width': 100,
-        //                     'height': 100,
-        //                 },
-        //                 'description': {
-        //                     'time': '2018/6/18 15:09',
-        //                     'content': 'apple',
-        //                 },
-        //             }
+        //
+        //         ],
+        //         'polyMark': [
+        //
         //         ]
         //     }
         // }
